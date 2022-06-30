@@ -1,0 +1,70 @@
+
+:root {
+    --lightGray: hsl(0, 0%, 90%);
+    --GrayishRed: hsl(0, 5%, 81%);
+    --verylightGray: hsl(0, 0%, 93%);
+    --verydarkGrayishyellow: hsl(60, 10%, 19%);
+    --lightGrayishyellow: hsl(45, 7%, 89%);
+    --darkgrayishOrange: hsl(35, 11%, 61%);
+    --orange: hsl(25, 98%, 40%);
+    --Dark0range: hsl(25, 99%, 27%);
+    --DarkmoderateCyan: hsl(185, 42%, 37%);
+    --verydarkCyan: hsl(185, 58%, 25%);
+}
+
+body {
+    background-color: var(--lightGray);
+}
+.display {
+    background-color: var(--verylightGray);
+    
+}
+
+.previous-operand {
+    color: hsla(221, 14%, 31%, .75);
+    font-size: 1.2rem;
+}
+
+.current-operand {
+    color: hsl(221, 14%, 31%);
+    font-size: 2.5rem;
+}
+
+.toggle-switch {
+    background-color: var(--GrayishRed);
+    border: 2px solid var(--GrayishRed);
+}
+
+button {
+    background-color: var(--lightGrayishyellow);
+    box-shadow: 0 5px var(--darkgrayishOrange);
+    color: var(--verydarkGrayishyellow);
+}
+
+.primary-header{
+    color: var(--verydarkGrayishyellow);
+}
+
+.keys {
+    background-color: var(--GrayishRed);
+}
+
+.key--equal {
+    background-color: var(--orange);
+    box-shadow: 0 5px  var(--Dark0range);
+}
+
+.btn-grey {
+    background-color: var(--DarkmoderateCyan);
+    box-shadow:0 5px var(--verydarkCyan)
+}
+
+.btn-grey:hover{
+    background-color: var(--DarkmoderateCyan);
+    opacity: 0.8;
+}
+
+.key--equal:hover {
+    background-color: var(--orange);
+    opacity: 0.8;
+}

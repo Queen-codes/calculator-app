@@ -1,0 +1,77 @@
+:root {
+    --verydarkViolet: hsl(268, 75%, 9%);
+    --darkviolet: hsl(268, 71%, 12%);
+    --lightyellow: hsl(52, 100%, 62%);
+    --pureCyan: hsl(176, 100%, 44%);
+    --veryDarkViolet: hsl(268, 47%, 21%);
+    --darkMagenta: hsl(290, 70%, 36%);
+    --DarkViolet: hsl(281, 89%, 26%);
+    --vividMagenta: hsl(285, 91%, 52%);
+    --white: #fff;
+    --veryDarkblue: hsl(198, 20%, 13%);
+    --softCyan: hsl(177, 92%, 70%);
+
+}
+
+body {
+    background-color: var(--verydarkViolet);
+}
+.display {
+    background-color: var(--darkviolet);
+    color: var(--lightyellow);
+}
+
+/*header , button {
+    color: var(--lightyellow);
+} */
+
+button {
+    background-color: var(--veryDarkViolet);
+    box-shadow: 0 5px  var(--darkMagenta);
+    color: var(--lightyellow);
+}
+
+button:hover{
+    background-color: var(--vividMagenta);
+}
+.keys {
+    background-color: var(--darkViolet);
+}
+
+.primary-header {
+    color: var(--lightyellow);
+}
+
+input {
+   background-color: var(--pureCyan);
+}
+
+.previous-operand{
+    color: hsla(52, 100%, 62%, .75);
+
+}
+
+.current-operand {
+    color: var(--lightyellow);
+}
+
+.btn-grey {
+    background-color: var(--DarkViolet);
+    box-shadow: 0 5px var(--vividMagenta);
+    color: var(--white);
+}
+
+.key--equal {
+    background-color: var(--pureCyan);
+    box-shadow: 0 5px var(--softCyan);
+    color: var(--veryDarkblue);
+}
+
+.key--equal:hover {
+    background-color: var(--softCyan);
+
+}
+
+.btn-grey:hover{
+    background-color: var(--darkMagenta);
+}
